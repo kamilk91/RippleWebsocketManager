@@ -20,3 +20,14 @@ C:\git\bankiers\RippleType\RippleType\obj\Debug\netcoreapp2.1\RippleType.Assembl
 C:\git\bankiers\RippleType\RippleType\obj\Debug\netcoreapp2.1\RippleType.AssemblyInfo.cs
 C:\git\bankiers\RippleType\RippleType\obj\Debug\netcoreapp2.1\RippleType.dll
 C:\git\bankiers\RippleType\RippleType\obj\Debug\netcoreapp2.1\RippleType.pdb
+C:\git\RippleType\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.csprojAssemblyReference.cache
+C:\git\RippleType\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.csproj.CoreCompileInputs.cache
+C:\git\RippleType\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.AssemblyInfoInputs.cache
+C:\git\RippleType\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.AssemblyInfo.cs
+C:\git\RippleType\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.dll
+C:\git\RippleType\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.pdb
+C:\git\RippleType\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.deps.json
+C:\git\RippleType\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.runtimeconfig.json
+C:\git\RippleType\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.runtimeconfig.dev.json
+C:\git\RippleType\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.dll
+C:\git\RippleType\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.pdb

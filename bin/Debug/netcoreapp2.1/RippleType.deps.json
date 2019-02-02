@@ -1,28 +1,18 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "28e2d370ad28f6cae6bab1f1d0afa8201f8920eb"
+    "signature": "7dc296497749abd4da963e693b3260fb7f34a376"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "RippleType/1.0.0": {
+      "RippleType/1.0.1": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.1",
-          "Ripple": "2.4.0.155",
-          "csredis": "3.2.1",
           "websocketsharp.core": "1.0.0"
         },
         "runtime": {
           "RippleType.dll": {}
-        }
-      },
-      "csredis/3.2.1": {
-        "runtime": {
-          "lib/net40/csredis.dll": {
-            "assemblyVersion": "3.2.1.0",
-            "fileVersion": "3.2.1.0"
-          }
         }
       },
       "Newtonsoft.Json/12.0.1": {
@@ -33,7 +23,6 @@
           }
         }
       },
-      "Ripple/2.4.0.155": {},
       "websocketsharp.core/1.0.0": {
         "runtime": {
           "lib/netstandard2.0/websocket-sharp-core.dll": {
@@ -45,17 +34,10 @@
     }
   },
   "libraries": {
-    "RippleType/1.0.0": {
+    "RippleType/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "csredis/3.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-kSMBhQuBDn+RPzmZA8EoyveYFXLx/ikM+dwvQjTiA/hIOXSE3cOgMq4PonaxHorTloP7s+hlL5tSQIeiGmZHlQ==",
-      "path": "csredis/3.2.1",
-      "hashPath": "csredis.3.2.1.nupkg.sha512"
     },
     "Newtonsoft.Json/12.0.1": {
       "type": "package",
@@ -63,13 +45,6 @@
       "sha512": "sha512-jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
-    },
-    "Ripple/2.4.0.155": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-FpJg3SN5Caxhu7pHpdPSVx+gL02WenDiirbmjQIvZf/GKVFRyo6ssfhM6tHrHei3W/SCKUYjH1VwD1httHgdrA==",
-      "path": "ripple/2.4.0.155",
-      "hashPath": "ripple.2.4.0.155.nupkg.sha512"
     },
     "websocketsharp.core/1.0.0": {
       "type": "package",

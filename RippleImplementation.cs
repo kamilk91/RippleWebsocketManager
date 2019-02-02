@@ -6,7 +6,7 @@ using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
 namespace RippleType
 {
-    class RippleImplementation
+    public class RippleImplementation
     {
         public RippleImplementation(string nodeAddress, bool debugger = false)
         {
@@ -25,6 +25,8 @@ namespace RippleType
 
         public string NodeAddress;
         public static Queue<string> requests = new Queue<string>();
+        public Queue<JObject> incoming = new Queue<JObject>();
+
         public bool debug = false;
         public enum methods
         {
@@ -336,15 +338,14 @@ namespace RippleType
              
         }
 
-        public JObject JsonToNormal(string JsonString)
+        public void ParseJson(string JsonString)
         {
             JObject json = JObject.Parse(JsonString);
             if(this.debug)
             {
-
-            Console.WriteLine(json);
+                Console.WriteLine(json);
             }
-            return json;
+            incoming.Enqueue(json);
         }
 
 
@@ -354,10 +355,7 @@ namespace RippleType
             using (var ws = new WebSocket(this.NodeAddress))
             {
                 ws.OnOpen += (sender,e) => Console.WriteLine("Socket open.");
-                ws.OnMessage += (sender, e)
-                    => JsonToNormal(e.Data);
-                
-                
+                ws.OnMessage += (sender, e) => ParseJson(e.Data);
                 ws.Connect();
                 while (true)
                 {
