@@ -7,13 +7,16 @@
     <Authors>RippleType</Authors>
     <Company>KamilKostrzewski</Company>
     <Product>Ripple Socket</Product>
-    <Description>Ripple websocket full implemented. You can use methods from official Ripple Websocket API. Please dont use your secret key in Ripple public nodes!!</Description>
+    <Description>Ripple websocket full implemented. You can use methods from official Ripple Websocket API. Please dont use your secret key in Ripple public nodes!</Description>
     <Copyright>Kamil Kostrzewski</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageReleaseNotes>1.0.0 version testing yet. In next version you can parse received data.</PackageReleaseNotes>
-    <Version>1.0.1</Version>
+    <PackageReleaseNotes>2.0.0 allows you to receive socket data.</PackageReleaseNotes>
+    <Version>2.0.0</Version>
+    <PackageIconUrl>https://banner2.kisspng.com/20180502/fbw/kisspng-ripple-cryptocurrency-bitcoin-thrown-ripples-5ae96ac47a57b4.2990594815252466605011.jpg</PackageIconUrl>
+    <RepositoryUrl>https://raw.githubusercontent.com/kamilk91/RippleWebsocketManager/</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

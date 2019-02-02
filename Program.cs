@@ -8,19 +8,6 @@ namespace RippleType
     {
         static void Main(string[] args)
         {
-            RippleImplementation xrp = new RippleImplementation("wss://s.altnet.rippletest.net:51233", debugger: false);
-            xrp.RippleServerInfo();
-            var t = new Thread(() => xrp.RippleSocketRun());
-            t.Start();
-
-            while(true)
-            {
-                if(xrp.incoming.Count > 0)
-                {
-
-                Console.WriteLine(xrp.incoming.Dequeue()["status"]);
-                }
-            }
         }
     }
 }
