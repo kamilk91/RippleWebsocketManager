@@ -44,21 +44,23 @@ using RippleType;
 Will connect you to Ripple websocket based on Ripple Testnet. Where rippleaccount please provide your account.  
 
 # Available methods
-- account_tx 
--  account_info 
--  account_lines 
--  account_offers 
--  account_currencies 
--  tx 
--  tx_history 
--  sign_and_submit 
--  server_info 
--  server_state 
--  ping 
--  subscribe 
--  unsubscribe 
--  ledger 
--  ledger_closed 
--  ledger_current 
--  ledger_entry 
--  transaction_entry 
+| Official API  | RippleWebsocketManager |
+| ------------- | ------------- |
+| ping  | RipplePing()  |
+| tx_history  | RippleTXHistory()  |
+| server_state  | RippleServerState()  |
+| server_info  | RippleServerInfo()  |
+| tx  | RippleTX()  |
+| account_tx  | RippleAccountTX()  |
+| transaction_entry  | RippleTransactionEntry()  |
+| account_currencies  | RippleAccountCurrencies()  |
+| account_offers  | RippleAccountOffers()  |
+| account_lines  | RippleAccountLines()  |
+| ledger_entry  | RippleLedgerEntry()  |
+| ledger_current  | RippleLedgerCurrent()  |
+| ledger_closed  | RippleLedgerClosed()  |
+| ledger  | RippleLedger()  |
+| subscribe  | RippleSubscribe()  |
+| unsubscribe  | RippleUnSubscribe()  |
+| sign_and_submit  | RippleSendTransaction()  |
+| account_info  | RippleAccountInfo()  |
