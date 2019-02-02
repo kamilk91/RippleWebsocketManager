@@ -44,6 +44,8 @@ using RippleType;
 Will connect you to Ripple websocket based on Ripple Testnet. Where rippleaccount please provide your account.  
 
 # Available methods
+
+
 | Official API  | RippleWebsocketManager |
 | ------------- | ------------- |
 | ping  | RipplePing()  |
