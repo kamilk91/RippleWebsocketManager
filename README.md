@@ -22,6 +22,8 @@ To use correctly You have to:
 
 # Usage
 ```
+using RippleType;
+
  static void Main(string[] args)
         {
             RippleImplementation xrp = new RippleImplementation("wss://s.altnet.rippletest.net:51233", debugger: false);
