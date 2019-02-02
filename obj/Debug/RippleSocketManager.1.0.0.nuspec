@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>RippleSocketManager</id>
+    <version>1.0.0</version>
+    <authors>RippleType</authors>
+    <owners>RippleType</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Ripple websocket full implemented. You can use methods from official Ripple Websocket API. Please dont use your secret key in Ripple public nodes!!</description>
+    <releaseNotes>1.0.0 version testing yet. In next version you can parse received data.</releaseNotes>
+    <copyright>Kamil Kostrzewski</copyright>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.NETCore.App" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.1" exclude="Build,Analyzers" />
+        <dependency id="Ripple" version="2.4.0.155" exclude="Build,Analyzers" />
+        <dependency id="csredis" version="3.2.1" exclude="Build,Analyzers" />
+        <dependency id="websocketsharp.core" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\git\bankiers\RippleType\RippleType\bin\Debug\netcoreapp2.1\RippleType.runtimeconfig.json" target="lib\netcoreapp2.1\RippleType.runtimeconfig.json" />
+    <file src="C:\git\bankiers\RippleType\RippleType\bin\Debug\netcoreapp2.1\RippleType.dll" target="lib\netcoreapp2.1\RippleType.dll" />
+  </files>
+</package>

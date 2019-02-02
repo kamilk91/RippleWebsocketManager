@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <PackageId>RippleSocketManager</PackageId>
+    <Authors>RippleType</Authors>
+    <Company>KamilKostrzewski</Company>
+    <Product>Ripple Socket</Product>
+    <Description>Ripple websocket full implemented. You can use methods from official Ripple Websocket API. Please dont use your secret key in Ripple public nodes!!</Description>
+    <Copyright>Kamil Kostrzewski</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageReleaseNotes>1.0.0 version testing yet. In next version you can parse received data.</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="csredis" Version="3.2.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Ripple" Version="2.4.0.155" />
+    <PackageReference Include="websocketsharp.core" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
