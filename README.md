@@ -16,9 +16,9 @@ To use correctly You have to:
 
 # NugetPackageManager
 - [Use this url to check NuggetPackage Store](https://www.nuget.org/packages/RippleSocketManager/ "Use this url to check NuggetPackage Store")
-- ```Install-Package RippleSocketManager -Version 1.0.0	```
-- ```dotnet add package RippleSocketManager --version 1.0.0	```
-- ```paket add RippleSocketManager --version 1.0.0```
+- ```Install-Package RippleSocketManager -Version 2.0.0	```
+- ```dotnet add package RippleSocketManager --version 2.0.0	```
+- ```paket add RippleSocketManager --version 2.0.0```
 
 # Usage
 ```
