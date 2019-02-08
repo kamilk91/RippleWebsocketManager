@@ -4,6 +4,7 @@ using WebSocketSharp;
 using WebSocketSharp.Net;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
+using System.Numerics;
 namespace RippleType
 {
     public class RippleImplementation
@@ -348,6 +349,7 @@ namespace RippleType
             incoming.Enqueue(json);
         }
 
+        
 
         public void RippleSocketRun()
         {
@@ -372,6 +374,28 @@ namespace RippleType
                 }
             }
         }
+    }
+
+    class RippleNumbers
+    {
+        Double decimals = Math.Pow(10, 6);
+
+        public string UnitToRipple(Double BigNumber)
+        {
+            Double countedAmount = BigNumber / decimals;
+            return countedAmount.ToString("0.000000");
+
+        }
+
+
+
+        public string RippleToUnit(string AmountOfRipple)
+        {
+            Double RippleAmount = Double.Parse(AmountOfRipple);
+            Double countedAmount = RippleAmount * decimals;
+            return countedAmount.ToString();
+        }
+
     }
 }
 

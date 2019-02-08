@@ -44,7 +44,21 @@ using RippleType;
 Will connect you to Ripple websocket based on Ripple Testnet. Where rippleaccount please provide your account.  
 
 # Available methods
+When you checking balance, or doing anything with Ripple balances, you have to use "unit" (sorry i dont know how it was called by Ripple). It is exactly counted by yourAmount * (or /) 10^6. 
+I made little feature related with that. If you want to simply count Value use
 
+```
+new RippleNumbers().RippleToUnit("1.234567");
+// where amount is placed with string, or to count nohumanreadableunit to Ripple:
+new RippleNumbers().RippleToUnit(10000000000);
+// where amount is placed with Double. 
+// 
+//
+// WARNING: IT WASN'T UNITTESTED YOU ARE USING ON OWN RISK, PLEASE CHECK YOUR CALCULATIONS BEFORE DO ANYTHING WITH THIS CLASS !!!!
+//
+//
+
+```
 
 | Official API  | RippleWebsocketManager |
 | ------------- | ------------- |

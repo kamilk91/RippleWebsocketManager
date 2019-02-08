@@ -8,6 +8,9 @@ namespace RippleType
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine(new RippleNumbers().RippleToUnit("1.234567"));
+            Console.ReadLine();
         }
     }
 }

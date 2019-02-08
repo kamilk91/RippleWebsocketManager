@@ -31,3 +31,14 @@ C:\git\RippleType\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.runt
 C:\git\RippleType\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.runtimeconfig.dev.json
 C:\git\RippleType\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.dll
 C:\git\RippleType\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.pdb
+C:\git\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.deps.json
+C:\git\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.runtimeconfig.json
+C:\git\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.runtimeconfig.dev.json
+C:\git\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.dll
+C:\git\RippleWebsocketManager\bin\Debug\netcoreapp2.1\RippleType.pdb
+C:\git\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.csprojAssemblyReference.cache
+C:\git\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.csproj.CoreCompileInputs.cache
+C:\git\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.AssemblyInfoInputs.cache
+C:\git\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.AssemblyInfo.cs
+C:\git\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.dll
+C:\git\RippleWebsocketManager\obj\Debug\netcoreapp2.1\RippleType.pdb

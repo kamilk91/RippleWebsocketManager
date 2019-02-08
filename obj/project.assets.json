@@ -700,7 +700,7 @@
       ]
     },
     "Newtonsoft.Json/12.0.1": {
-      "sha512": "jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "type": "package",
       "path": "newtonsoft.json/12.0.1",
       "files": [
@@ -739,7 +739,7 @@
       ]
     },
     "websocketsharp.core/1.0.0": {
-      "sha512": "qwko+jN0TpWB4agvPzDZ0p0w4c0nsooeyAo+yi1IhAM+pqg0hTVle6bj/BjyS/Iwj81z+Q+wXN3oXl4dWUrBdg==",
+      "sha512": "Pdr9TtOtlaxKI6XtuHdRBrxFsBPCpqxNerAFbpdb2K7foBMYJmUOV+wqhklZilphtFjxT5zN1X6X3iyG/OovAQ==",
       "type": "package",
       "path": "websocketsharp.core/1.0.0",
       "files": [
@@ -759,23 +759,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kamil\\.nuget\\packages\\": {},
+    "C:\\Users\\kamil\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "2.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\RippleType\\RippleWebsocketManager\\RippleType.csproj",
+      "projectUniqueName": "C:\\git\\RippleWebsocketManager\\RippleType.csproj",
       "projectName": "RippleSocketManager",
-      "projectPath": "C:\\git\\RippleType\\RippleWebsocketManager\\RippleType.csproj",
-      "packagesPath": "C:\\Users\\Kamil\\.nuget\\packages\\",
-      "outputPath": "C:\\git\\RippleType\\RippleWebsocketManager\\obj\\",
+      "projectPath": "C:\\git\\RippleWebsocketManager\\RippleType.csproj",
+      "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
+      "outputPath": "C:\\git\\RippleWebsocketManager\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kamil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

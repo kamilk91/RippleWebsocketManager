@@ -42,14 +42,14 @@
     "Newtonsoft.Json/12.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jmVyoEyk0In8r+AObYQyFKVFm7uSRzE0XSHSbEtBJcZDMV6DqJoyB4FLcHwprPVhAh826so0db3DIKXVnpGoPA==",
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
     "websocketsharp.core/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qwko+jN0TpWB4agvPzDZ0p0w4c0nsooeyAo+yi1IhAM+pqg0hTVle6bj/BjyS/Iwj81z+Q+wXN3oXl4dWUrBdg==",
+      "sha512": "sha512-Pdr9TtOtlaxKI6XtuHdRBrxFsBPCpqxNerAFbpdb2K7foBMYJmUOV+wqhklZilphtFjxT5zN1X6X3iyG/OovAQ==",
       "path": "websocketsharp.core/1.0.0",
       "hashPath": "websocketsharp.core.1.0.0.nupkg.sha512"
     }
